@@ -91,7 +91,40 @@
     </li>
     </ul>
 </section>
+   <section class="reservation">
+      <h2 class="reservation__title">Book a Table</h2>
 
+     <form id="reservationForm" class="reservation__form form" action="#" method="post" novalidate>
+        <fieldset class="form__fieldset">
+          <label class="form__label" for="fullName">Name*</label>
+        <input class="form__input" id="fullName" name="full name" type="text" placeholder="Name Surname" required />
+      </fieldset>
+
+        <fieldset class="form__fieldset">
+          <label class="form__label" for="guests">Number of guests*</label>
+          <input class="form__input" id="guests" name="guests" type="number" min="1" max="20" value="2" required />
+        </fieldset>
+
+        <fieldset class="form__fieldset">
+          <label class="form__label" for="datetime">Date and time*</label>
+          <input class="form__input" id="datetime" name="datetime" type="datetime-local" required />
+        </fieldset>
+
+        <fieldset class="form__fieldset">
+          <label class="form__label" for="email">Your email*</label>
+          <input class="form__input" id="email" name="email" type="email" placeholder="email@email.com" required />
+        </fieldset>
+
+        <fieldset class="form__fieldset">
+          <button id="bookBtn" class="form__button" type="submit" disabled>Book a Table</button>
+
+          <label class="form__checkbox">
+            <input id="agree" name="agree" type="checkbox" />
+            I agree w terms of use
+          </label>
+        </fieldset>
+      </form>
+   </section>
       </main>
 
       <footer class="footer">
