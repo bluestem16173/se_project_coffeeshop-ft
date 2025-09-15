@@ -13,4 +13,6 @@ This is the second project of the fulltime Software Engineering program at Tripl
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Add your ideas here :) This 
+the  project was the TripleEspressoLibrary Project.
+We made use of advanced CSS concepts, building upon our knowledgre of best practices. We used the BEM structure and beecame familiar with animations and other advanced features of css. 
