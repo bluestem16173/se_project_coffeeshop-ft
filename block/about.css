@@ -1,78 +1,69 @@
-.about{
-display: flex;
-background-color:  #0A2850 ;
- padding: 100px 80px 173px;
-justify-content: space-between;
-position: relative;
-z-index: 0;
-overflow: hidden;
+.about {
+  display: flex;
+  background-color: #0a2850;
+  padding: 100px 80px 173px;
+  justify-content: space-between;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
 }
 
-.about__title{
+.about__title {
   color: #ffffff;
-   font-family: "Inter", Arial, Helvetica, sans-serif;
- font-style: normal;
- font-weight: 500;
- font-size: 46px;
- line-height: 52px;
-margin: 0;
- max-width: 251px;
- padding-left: 80px;
-
-
-
-
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 52px;
+  margin: 0;
+  max-width: 251px;
+  padding-left: 80px;
 }
-.about__content{
-  color:#ffffff;
-  display:flex;
+.about__content {
+  color: #ffffff;
+  display: flex;
   flex-direction: column;
   max-width: 660px;
   gap: 20px;
-  font-family: "Noto Serif",serif;
- font-style: normal;
- font-weight: normal;
- font-size: 20px;
- line-height: 30px;
-
-
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
-about__paragraph{
-margin: 0;
-font-family: "Noto Serif",serif;
- font-style: normal;
- font-weight: normal;
- font-size: 20px;
- line-height: 30px;
+about__paragraph {
+  margin: 0;
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
-.about__circle{
+.about__circle {
   width: 426px;
   height: 426px;
-  border-radius: 50%;        /* rounds it into a circle */
-  background: #1878dc;       /* color (or use an image) */
+  border-radius: 50%; /* rounds it into a circle */
+  background: #1878dc; /* color (or use an image) */
   position: absolute;
-top: -152px;
-left: -120px;
-z-index: -1;
-
+  top: -152px;
+  left: -120px;
+  z-index: -1;
 }
 @keyframes pulsate {
   0% {
     opacity: 0;
-
   }
   50% {
     opacity: 0.6;
   }
   100% {
-    opacity: 0;            /* invisible again */
+    opacity: 0; /* invisible again */
     transform: scale(1.2); /* still ≤1.5 */
-  }}
-
-.about__circle_animation_blurred{
-  animation: pulsate 1.3s ease-in-out infinite;
+  }
 }
 
-
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out infinite;
+}

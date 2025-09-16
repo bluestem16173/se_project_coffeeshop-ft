@@ -1,56 +1,52 @@
-.menu{
+.menu {
   background-color: #fff;
   background-image: url("../images/background_menu.svg");
-  background-size: contain;        /* makes it fill the section */
-  background-position: center;   /* centers the image */
+  background-size: contain; /* makes it fill the section */
+  background-position: center; /* centers the image */
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  }
-.menu__title{
-
-    margin-top: 100px;
-    max-width: 700px;
-    text-align: center;
-    font-family: "Inter";
+}
+.menu__title {
+  margin-top: 100px;
+  max-width: 700px;
+  text-align: center;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-
-  }
-.menu__subtitle{
-   max-width: 780px;
-     text-align: center;
-    margin-top: 24px;
-    margin-bottom: 100px;
-    font-family: "Noto Serif";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px
-  }
-
-.menu__cards{
-
-   margin-top: 100px;
-   margin-bottom: 100px;
-   gap: 100px;
-   padding: 0px;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
+}
+.menu__subtitle {
+  max-width: 780px;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 100px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
-.card{
+.menu__cards {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  gap: 100px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
   width: 540px;
   margin: 0px;
   padding: 0px;
   list-style-type: none;
 }
-.card__title{
+.card__title {
   font-family: "Inter";
   font-style: normal;
   font-weight: bold;
@@ -58,7 +54,7 @@
   line-height: 30px;
   margin: 0 0 32px;
 }
-.card__list{
+.card__list {
   display: flex;
   flex-direction: column;
   list-style-type: none;
@@ -72,16 +68,13 @@
   gap: 16px;
 }
 
-
-.card__list-item{
+.card__list-item {
   display: flex;
   justify-content: space-between;
   gap: 10px;
 }
 
-.card__list-divider{
-  flex-grow: 1;                    /* <-- this makes it fill the space between */
+.card__list-divider {
+  flex-grow: 1; /* <-- this makes it fill the space between */
   border-bottom: 1px solid black;
-
 }
-
