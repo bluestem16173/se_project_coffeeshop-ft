@@ -1,6 +1,6 @@
 .menu{
   background-color: #fff;
-  background-image: url("/images/background_menu.svg");
+  background-image: url("../images/background_menu.svg");
   background-size: contain;        /* makes it fill the section */
   background-position: center;   /* centers the image */
   background-repeat: no-repeat;
@@ -27,10 +27,10 @@
     margin-top: 24px;
     margin-bottom: 100px;
     font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px
   }
 
 .menu__cards{
@@ -51,22 +51,22 @@
   list-style-type: none;
 }
 .card__title{
-   font-family: "Inter";
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 30px;
-margin: 0 0 32px;}
-
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 0 32px;
+}
 .card__list{
-  display: block;
+  display: flex;
   flex-direction: column;
   list-style-type: none;
   margin: 0px;
   padding: 0px;
   font-family: "Noto Serif";
   font-style: normal;
-    font-weight: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   gap: 16px;

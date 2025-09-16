@@ -4,7 +4,7 @@
   flex-direction: column; /* stack vertically */
   align-items: flex-start;
   justify-content: space-between;
-  background-image: url("/images/background_recipes.svg");
+  background-image: url("../images/background_recipes.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -35,13 +35,13 @@
   line-height: 30px;
 }
 .recipes__videos{
-  margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
   list-style-type: none;
   gap: 40px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .recipes__iframe{
